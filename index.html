@@ -1,191 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Header with Mobile Menu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="script.js">
-
-</head>
-<body>
+    <link rel="stylesheet" href="script.js" />
+    <!-- cdn of fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="top-bar">
-            <div class="contact-info">
-                <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@geetauniversity.edu.in">info@geetauniversity.edu.in</a>
-                <span>|</span>
-                <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:09278768000">092787 68000</a>
-            </div>
-            <div class="social-icons">
-                <a href="#" class="fa-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="fa-icon"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="fa-icon"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="fa-icon"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="fa-icon"><i class="fab fa-whatsapp"></i></a>
-            </div>
+      <div class="top-bar">
+        <div class="contact-info">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <a href="mailto:info@geetauniversity.edu.in"
+            >info@geetauniversity.edu.in</a
+          >
+          <span>|</span>
+          <i class="fa fa-phone" aria-hidden="true"></i
+          ><a href="tel:09278768000">092787 68000</a>
         </div>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="image/GU-Logo-PNG.png" alt="Geeta University Logo">
-            </div>
-            <div class="menu-icon" id="menu-icon">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Academics</a></li>
-                <li><a href="#">Admission</a></li>
-                <li><a href="#">Placements</a></li>
-                <li><a href="#">Campus Life</a></li>
+        <div class="social-icons">
+          <a href="#" class="fa-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="fa-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="fa-icon"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="fa-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="fa-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <hr class="line-break" />
+      <nav class="navbar">
+        <div class="logo">
+          <img src="image/GU-Logo-PNG.png" alt="Geeta University Logo" />
+        </div>
+        <div class="menu-icon" id="menu-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li class="nav-item">
+            <a href="#">About Us</a><i class="fa-solid fa-caret-down"></i>
+            <ul class="submenu">
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Mission & Vision</a></li>
             </ul>
-            <a href="#" class="apply-btn">Apply Now</a>
-        </nav>
+          </li>
+          <li>
+            <a href="#">Programs</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li>
+            <a href="#">Academics</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li>
+            <a href="#">Admission</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li>
+            <a href="#">Placements</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li>
+            <a href="#">Campus Life</a><i class="fa-solid fa-caret-down"></i>
+          </li>
+        </ul>
+        <a href="#" class="apply-btn"
+          >Apply Now<i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </nav>
+
+      <!-- sticky social icons left side  -->
+
+      <div class="sticky-social-icons">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          class="social-icon facebook-icon"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          class="social-icon twitter-icon"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          class="social-icon instagram-icon"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          class="social-icon linkedin-icon"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
     </header>
     <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-               
-                <img src="image/premium_photo-1710865692399-6fe10f968711.avif" alt="Image 1">
-            </div>
-            <div class="swiper-slide">
-                <img src="image/romantic-night-scene-beautiful-pink-600w-2261269699.webp" alt="Image 2">
-            </div>
-            <div class="swiper-slide">
-                <img src="image3.jpg" alt="Image 3">
-            </div>
-            <!-- Add more slides as needed -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- <img src="image/premium_photo-1710865692399-6fe10f968711.avif" alt="Image 1"> -->
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+        <div class="swiper-slide">
+          <!-- <img src="image/romantic-night-scene-beautiful-pink-600w-2261269699.webp" alt="Image 2"> -->
+        </div>
+        <div class="swiper-slide">
+          <img src="image3.jpg" alt="Image 3" />
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
     </div>
 
     <div class="form-section">
-        <div class="info-section">
-            <h1>Bright Future Ahead</h1>
-            <h2>Placement Record Speaks for Itself</h2>
-            <p>
-                Geeta University focuses on holistic student development by offering specialized programs, skill enhancement workshops, and industry collaborations. Through internships, live projects, and dedicated placement drives, we ensure that students gain practical experience. Our strong industry partnerships and proactive placement cell work tirelessly to secure top job opportunities for graduates, paving the way for their success.
-            </p>
-        </div>
-        <div class="enquiry-form-container">
-            <h2>Enquire Now</h2>
-            <form>
-                <input type="text" placeholder="Enter Name *" required>
-                <input type="email" placeholder="Enter Email Address *" required>
-                <div class="phone-wrapper">
-                    <span>+91</span>
-                    <input type="tel" placeholder="Enter Mobile Number *" required>
-                </div>
-                <select required>
-                    <option value="">Select State *</option>
-                    <!-- Add options here -->
-                </select>
-                <select required>
-                    <option value="">Select City *</option>
-                    <!-- Add options here -->
-                </select>
-                <select required>
-                    <option value="">Select Discipline *</option>
-                    <!-- Add options here -->
-                </select>
-                <select required>
-                    <option value="">Select Course *</option>
-                    <!-- Add options here -->
-                </select>
-                <select required>
-                    <option value="">Select Session *</option>
-                    <!-- Add options here -->
-                </select>
-                <div class="captcha-section">
-                    <img src="captcha-placeholder.png" alt="Captcha">
-                    <input type="text" placeholder="Enter text as shown" required>
-                </div>
-                <div class="agreement-checkbox">
-                    <input type="checkbox" required>
-                    <label>I agree to receive information regarding my submitted enquiry on Geeta University *</label>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+      <div class="info-section">
+        <h1>Bright Future Ahead</h1>
+        <h2>Placement Record Speaks for Itself</h2>
+        <p>
+          Geeta University focuses on holistic student development by offering
+          specialized programs, skill enhancement workshops, and industry
+          collaborations. Through internships, live projects, and dedicated
+          placement drives, we ensure that students gain practical experience.
+          Our strong industry partnerships and proactive placement cell work
+          tirelessly to secure top job opportunities for graduates, paving the
+          way for their success.
+        </p>
+      </div>
+      <div class="enquiry-form-container">
+        <h2>Enquire Now</h2>
+        <form>
+          <input type="text" placeholder="Enter Name *" required />
+          <input type="email" placeholder="Enter Email Address *" required />
+          <div class="phone-wrapper">
+            <span>+91</span>
+            <input type="tel" placeholder="Enter Mobile Number *" required />
+          </div>
+          <select required>
+            <option value="">Select State *</option>
+            <!-- Add options here -->
+          </select>
+          <select required>
+            <option value="">Select City *</option>
+            <!-- Add options here -->
+          </select>
+          <select required>
+            <option value="">Select Discipline *</option>
+            <!-- Add options here -->
+          </select>
+          <select required>
+            <option value="">Select Course *</option>
+            <!-- Add options here -->
+          </select>
+          <select required>
+            <option value="">Select Session *</option>
+            <!-- Add options here -->
+          </select>
+          <div class="captcha-section">
+            <img src="captcha-placeholder.png" alt="Captcha" />
+            <input type="text" placeholder="Enter text as shown" required />
+          </div>
+          <div class="agreement-checkbox">
+            <input type="checkbox" required />
+            <label
+              >I agree to receive information regarding my submitted enquiry on
+              Geeta University *</label
+            >
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
-    
+
     <div class="container_m">
-        <div class="card" style="border-style: solid; --border-style: solid; border-width: 1px 1px 1px 1px; --border-top-width: 1px; --border-right-width: 1px; --border-bottom-width: 1px; --border-left-width: 1px; border-color: #B9E1FF; --border-color: #B9E1FF; --border-radius: 10px 10px 10px 10px; --padding-top: 30px; --padding-bottom: 30px; --padding-left: 0px; --padding-right: 0px; --z-index: 2; --e-con-transform-transition-duration: 500;">
-            <div class="icon">&#128101;</div>
-            <div class="value">40 LPA</div>
-            <div class="description">HIGHEST PACKAGE</div>
+      <div
+        class="card"
+        style="
+          border-style: solid;
+          --border-style: solid;
+          border-width: 1px 1px 1px 1px;
+          --border-top-width: 1px;
+          --border-right-width: 1px;
+          --border-bottom-width: 1px;
+          --border-left-width: 1px;
+          border-color: #b9e1ff;
+          --border-color: #b9e1ff;
+          --border-radius: 10px 10px 10px 10px;
+          --padding-top: 30px;
+          --padding-bottom: 30px;
+          --padding-left: 0px;
+          --padding-right: 0px;
+          --z-index: 2;
+          --e-con-transform-transition-duration: 500;
+        "
+      >
+        <div class="icon">&#128101;</div>
+        <div class="value">40 LPA</div>
+        <div class="description">HIGHEST PACKAGE</div>
+      </div>
+      <div
+        class="card"
+        style="
+          border-style: solid;
+          --border-style: solid;
+          border-width: 1px 1px 1px 1px;
+          --border-top-width: 1px;
+          --border-right-width: 1px;
+          --border-bottom-width: 1px;
+          --border-left-width: 1px;
+          border-color: #b9e1ff;
+          --border-color: #b9e1ff;
+          --border-radius: 10px 10px 10px 10px;
+          --padding-top: 30px;
+          --padding-bottom: 30px;
+          --padding-left: 0px;
+          --padding-right: 0px;
+          --z-index: 2;
+          --e-con-transform-transition-duration: 500;
+        "
+      >
+        <div class="icon">&#11088;</div>
+        <div class="value">445+</div>
+        <div class="description">RECRUITERS</div>
+      </div>
+      <div
+        class="card"
+        style="
+          border-style: solid;
+          --border-style: solid;
+          border-width: 1px 1px 1px 1px;
+          --border-top-width: 1px;
+          --border-right-width: 1px;
+          --border-bottom-width: 1px;
+          --border-left-width: 1px;
+          border-color: #b9e1ff;
+          --border-color: #b9e1ff;
+          --border-radius: 10px 10px 10px 10px;
+          --padding-top: 30px;
+          --padding-bottom: 30px;
+          --padding-left: 0px;
+          --padding-right: 0px;
+          --z-index: 2;
+          --e-con-transform-transition-duration: 500;
+        "
+      >
+        <div class="icon">&#128187;</div>
+        <div class="value">3,000+</div>
+        <div class="description">JOB OFFERS</div>
+      </div>
+
+      <div class="carousel-container">
+        <h2>TOP RECRUITERS</h2>
+        <div class="carousel">
+          <img
+            src="https://via.placeholder.com/200x100?text=Philips"
+            alt="Philips"
+          />
+          <img
+            src="https://via.placeholder.com/200x100?text=Cuvette"
+            alt="Cuvette"
+          />
+          <img
+            src="https://via.placeholder.com/200x100?text=Josh+Technology+Group"
+            alt="Josh Technology Group"
+          />
+          <img
+            src="https://via.placeholder.com/200x100?text=Apisero"
+            alt="Apisero"
+          />
+          <img
+            src="https://via.placeholder.com/200x100?text=Gemini+Solutions"
+            alt="Gemini Solutions"
+          />
+          <img src="https://via.placeholder.com/200x100?text=HP" alt="HP" />
         </div>
-        <div class="card" style="border-style: solid; --border-style: solid; border-width: 1px 1px 1px 1px; --border-top-width: 1px; --border-right-width: 1px; --border-bottom-width: 1px; --border-left-width: 1px; border-color: #B9E1FF; --border-color: #B9E1FF; --border-radius: 10px 10px 10px 10px; --padding-top: 30px; --padding-bottom: 30px; --padding-left: 0px; --padding-right: 0px; --z-index: 2; --e-con-transform-transition-duration: 500;">
-            <div class="icon">&#11088;</div>
-            <div class="value">445+</div>
-            <div class="description">RECRUITERS</div>
-        </div>
-        <div class="card" style="border-style: solid; --border-style: solid; border-width: 1px 1px 1px 1px; --border-top-width: 1px; --border-right-width: 1px; --border-bottom-width: 1px; --border-left-width: 1px; border-color: #B9E1FF; --border-color: #B9E1FF; --border-radius: 10px 10px 10px 10px; --padding-top: 30px; --padding-bottom: 30px; --padding-left: 0px; --padding-right: 0px; --z-index: 2; --e-con-transform-transition-duration: 500;">
-            <div class="icon">&#128187;</div>
-            <div class="value">3,000+</div>
-            <div class="description">JOB OFFERS</div>
-        </div>
-     
-        <div class="carousel-container">
-            <h2>TOP RECRUITERS</h2>
-            <div class="carousel">
-                <img src="https://via.placeholder.com/200x100?text=Philips" alt="Philips">
-                <img src="https://via.placeholder.com/200x100?text=Cuvette" alt="Cuvette">
-                <img src="https://via.placeholder.com/200x100?text=Josh+Technology+Group" alt="Josh Technology Group">
-                <img src="https://via.placeholder.com/200x100?text=Apisero" alt="Apisero">
-                <img src="https://via.placeholder.com/200x100?text=Gemini+Solutions" alt="Gemini Solutions">
-                <img src="https://via.placeholder.com/200x100?text=HP" alt="HP">
-            </div>
-        </div>
+      </div>
     </div>
-      
 
     <section class="programs-offered">
-        <div class="content-wrapper">
-            <h2>Programs Offered</h2>
-            <p>70+ Study Programs at Diploma, UG, PG, and Ph.D. Levels</p>
-            <div class="programs-container">
-                <div class="program-category">
-                    <h3>COMPUTER SCIENCE & ENGINEERING</h3>
-                </div>
-                <div class="program-category">
-                    <h3>COMPUTER APPLICATIONS</h3>
-                </div>
-                <div class="program-category">
-                    <h3>BUSINESS MANAGEMENT</h3>
-                </div>
-                <div class="program-category">
-                    <h3>COMMERCE</h3>
-                </div>
-                <div class="program-category">
-                    <h3>PHARMACY</h3>
-                </div>
-                <div class="program-category">
-                    <h3>AGRICULTURAL STUDIES</h3>
-                </div>
-                <div class="program-category">
-                    <h3>LAW</h3>
-                </div>
-                <div class="program-category">
-                    <h3>HOSPITALITY & HOTEL MANAGEMENT</h3>
-                </div>
-                <div class="program-category">
-                    <h3>NUTRITION & DIETETICS</h3>
-                </div>
-                <div class="program-category">
-                    <h3>HUMANITIES & SOCIAL SCIENCES</h3>
-                </div>
-                <div class="program-category">
-                    <h3>FORENSIC SCIENCE</h3>
-                </div>
-            </div>
-           
+      <div class="content-wrapper">
+        <h2>Programs Offered</h2>
+        <p>70+ Study Programs at Diploma, UG, PG, and Ph.D. Levels</p>
+        <div class="programs-container">
+          <div class="program-category">
+            <h3>COMPUTER SCIENCE & ENGINEERING</h3>
+          </div>
+          <div class="program-category">
+            <h3>COMPUTER APPLICATIONS</h3>
+          </div>
+          <div class="program-category">
+            <h3>BUSINESS MANAGEMENT</h3>
+          </div>
+          <div class="program-category">
+            <h3>COMMERCE</h3>
+          </div>
+          <div class="program-category">
+            <h3>PHARMACY</h3>
+          </div>
+          <div class="program-category">
+            <h3>AGRICULTURAL STUDIES</h3>
+          </div>
+          <div class="program-category">
+            <h3>LAW</h3>
+          </div>
+          <div class="program-category">
+            <h3>HOSPITALITY & HOTEL MANAGEMENT</h3>
+          </div>
+          <div class="program-category">
+            <h3>NUTRITION & DIETETICS</h3>
+          </div>
+          <div class="program-category">
+            <h3>HUMANITIES & SOCIAL SCIENCES</h3>
+          </div>
+          <div class="program-category">
+            <h3>FORENSIC SCIENCE</h3>
+          </div>
         </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
