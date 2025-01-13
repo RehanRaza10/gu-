@@ -57,7 +57,7 @@ a {
 
 .social-icon:hover {
     transform: scale(1.1);
-    background-color: #e65518; /* Slightly darker shade on hover */
+    background-color: #e65518;
 }
 
 
@@ -187,7 +187,12 @@ a {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .navbar {
+  
+  /* Hide sticky social icons on mobile devices */
+.sticky-social-icons {
+    display: none;
+}
+    .navbar {
     flex-direction: row;
     justify-content: space-between;
   }
