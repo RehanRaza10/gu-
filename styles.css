@@ -13,21 +13,20 @@
 
 /* header */
 
+
+
 header {
-  padding: 0px 35px;
   background-color: #fff2ed;
   z-index: 99;
 }
 
-.fa-icon {
-  color: #ff5f19;
-  padding: 3px 3px;
-}
+
 
 .top-bar a {
   color: #ff5f19;
-  padding: 3px 5px;
 }
+
+
 
 .apply-btn,
 .apply-btn-right {
@@ -68,12 +67,12 @@ header {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
 .carousel img {
-  width: 200px;
+  width: 100px;
   height: auto;
   border-radius: 10px;
   border: 2px solid #ddd;
@@ -191,3 +190,4 @@ header {
 .footer-section {
   padding: 10px;
 }
+
