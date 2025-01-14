@@ -191,3 +191,72 @@ header {
   padding: 10px;
 }
 
+.carousel img {
+          width: 100px;
+          height: auto;
+        }
+      
+        @media (max-width: 768px) {
+          .carousel img {
+            width: 70px; /* Smaller width for mobile */
+          }
+        }
+      
+        @media (max-width: 480px) {
+          .carousel img {
+            width: 50px; /* Even smaller width for very small screens */
+          }
+        }
+        
+.custom-bg {
+  background-color: #e6e6e6;
+  background-image: linear-gradient(360deg, #FFFFFF 40%, rgba(255, 255, 255, 0.18) 100%);
+ }
+ 
+ .btn-apply {
+          border-radius: 50%;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 20px;
+        }
+.btn-apply i {
+          margin-left: 8px;
+        }
+       
+        .carousel-inner {
+          display: flex;
+        }
+        .carousel-item {
+          flex: 0 0 100%;
+          display: flex;
+          justify-content: center;
+          transition: transform 0.5s ease-in-out;
+        }
+        .carousel .card {
+          flex: 0 0 20%; /* Each card will take 20% of the width to fit 5 cards */
+          max-width: 20%;
+          margin: 0 5px;
+        }
+        .carousel .card img {
+          height: 420px;
+          width: 100%;
+          object-fit: cover;
+        }
+      
+        @media (max-width: 768px) {
+          .carousel .card {
+            flex: 0 0 33.333%; /* Adjust to show fewer cards on smaller screens */
+            max-width: 33.333%;
+          }
+        }
+      
+        @media (max-width: 576px) {
+          .carousel .card {
+            flex: 0 0 50%; /* Adjust to show fewer cards on smaller screens */
+            max-width: 50%;
+          }
+        }
+     
+      
+
