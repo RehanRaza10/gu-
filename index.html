@@ -1,56 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Header with Mobile Menu</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- cdn of fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
 
-    <!-- cdn of bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Header with Mobile Menu</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- cdn of fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
-      rel="stylesheet"
-    />
-    <!-- tailwind -->
+  <!-- cdn of bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
-  </head>
-  <body>
-    <!-- Sticky Social Icons left side -->
-    <div
-      class="position-fixed top-50 start-0 translate-middle-y d-none d-md-block sticky-social-icons"
-    >
-      <div class="d-flex flex-column">
-        <a href="#" class="btn btn-primary mb-2" role="button">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="btn btn-primary mb-2" role="button">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#" class="btn btn-info mb-2" role="button">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="btn btn-danger mb-2" role="button">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <a href="#" class="btn btn-dark mb-2" role="button">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </div>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    rel="stylesheet" />
+  <!-- tailwind -->
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+</head>
+
+<body>
+  <!-- Sticky Social Icons left side -->
+  <div class="position-fixed top-50 start-0 translate-middle-y d-none d-md-block sticky-social-icons">
+    <div class="d-flex flex-column">
+      <a href="https://www.facebook.com/geetauniversity" target="_blank" class="btn btn-primary mb-2" role="button">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/geetauniversitypanipat/" target="_blank" class="btn btn-primary mb-2" role="button">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/c/geetauniversity" target="_blank" class="btn btn-info mb-2" role="button">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.youtube.com/c/geetauniversity" target="_blank" class="btn btn-danger mb-2" role="button">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.youtube.com/c/geetauniversity" target="_blank" class="btn btn-dark mb-2" role="button">
+        <i class="fab fa-whatsapp"></i>
+      </a>
     </div>
-    <!-- right side apply now button -->
+  </div>
+  <!-- right side apply now button -->
 
-    <!-- <div
+  <!-- <div
       class="position-fixed top-50 end-0 translate-middle-y sticky-social-icons"
     >
       <div class="d-flex apply-btn-right-main flex-column">
@@ -58,15 +50,13 @@
       </div>
     </div> -->
 
-    <!-- Header -->
-    <header class="position-sticky top-0">
-      <div class="top-bar container-fluid py-2">
-        <div class="d-flex justify-content-between align-items-center">
-          <!-- Left Section: Email and Phone -->
-          <div
-            class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center"
-          >
-            <div class="email me-2">
+  <!-- Header -->
+  <header class="position-sticky top-0">
+    <div class="top-bar container-fluid py-2">
+      <div class="d-flex justify-content-between align-items-center">
+        <!-- Left Section: Email and Phone -->
+        <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center">
+          <!-- <div class="email me-2">
               <a
                 href="mailto:info@geetauniversity.edu.in"
                 class="text-decoration-none"
@@ -74,1524 +64,1116 @@
                 <i class="fa-solid fa-envelope"></i
                 >&nbsp;info@geetauniversity.edu.in
               </a>
-            </div>
-            <div class="phone-no">
-              <a href="tel:09278768000" class="text-decoration-none">
-                <i class="fa-solid fa-phone"></i>&nbsp;092787 68000
-              </a>
-            </div>
-          </div>
-
-          <!-- Right Section: Social Icons -->
-          <div class="d-flex">
-            <a href="#" class="fa-icon me-2 text-decoration-none">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="fa-icon me-2 text-decoration-none">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#" class="fa-icon me-2 text-decoration-none">
-              <i class="fab fa-youtube"></i>
-            </a>
-            <a href="#" class="fa-icon me-2 text-decoration-none">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="fa-icon text-decoration-none">
-              <i class="fab fa-whatsapp"></i>
+            </div> -->
+          <div class="phone-no">
+            <a href="tel:09278768000" class="text-decoration-none">
+              <i class="fa-solid fa-phone"></i>&nbsp;092787 68000
             </a>
           </div>
         </div>
-        <hr style="padding: 0; margin: 0" />
-      </div>
 
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <img
-            src="./image/GU-Logo-PNG.png"
-            style="width: 130px"
-            alt="Geeta Univeristy"
-          />
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About Us
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Programs
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Academics
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Admission
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Placements
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Campus Life
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-
-            <form>
-              <a href="">
-                <button class="apply-btn shadow-none border-0">
-                  Apply Now&nbsp;<i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </a>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!--  image crousal  -->
-
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          style="
-            border-radius: 50%;
-            width: 10px;
-            height: 10px;
-            background-color: #ff5f19;
-          "
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          style="
-            border-radius: 50%;
-            width: 10px;
-            height: 10px;
-            background-color: #ff5f19;
-          "
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 1"
-        ></button>
-        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./image/header-1.webp" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="./image/header-2.webp" class="d-block w-100" alt="..." />
+        <!-- Right Section: Social Icons -->
+        <div class="d-flex">
+          <a href="https://www.facebook.com/share/nFk99pBPikyCC5PR/?mibextid=qi2Omg" class="fa-icon me-2 text-decoration-none">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/geetauniversitypanipat/" class="fa-icon me-2 text-decoration-none">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/c/geetauniversity" class="fa-icon me-2 text-decoration-none">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://www.linkedin.com/school/geeta-university-official/" class="fa-icon me-2 text-decoration-none">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.linkedin.com/school/geeta-university-official/" class="fa-icon text-decoration-none">
+            <i class="fab fa-whatsapp"></i>
+          </a>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <hr style="padding: 0; margin: 0" />
     </div>
 
-    <!-- section 1  -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <img src="./image/GU-Logo-PNG.png" style="width: 130px" alt="Geeta Univeristy" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Programs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Academics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Admission
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Placements
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Campus Life
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
 
-    <section class="section-1">
-      <div class="container-fluid w-100 position-relative p-0">
-        <!-- Background Image -->
-        <img
-          src="./image/course_bg_1-2-1.webp"
-          class="img-fluid position-absolute top-0 start-0 w-100 h-100"
-          style="object-fit: cover; z-index: -1"
-          alt="Background Image"
-        />
+          <form>
+            <a href="https://admissions.geetauniversity.edu.in/" target="_blank">
+              <button class="apply-btn shadow-none border-0">
+                Apply Now&nbsp;<i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-        <!-- Content -->
-        <div class="container position-relative py-4">
-          <div class="row align-items-center">
-            <div class="col-12 col-md-6 mt-5">
-              <h1 class="mt-5" style="color: #06355f; font-weight: 900">
-                Bright Future Ahead
-              </h1>
-              <h2 style="color: #ff5f19; font-weight: 600" class="fs-7">
-                Placement Record Speaks for Itself
-              </h2>
-              <p
-                style="
+  <!--  image crousal  -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" style="
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background-color: #ff5f19;
+          " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" style="
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            background-color: #ff5f19;
+          " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 1"></button>
+      <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./image/header-1.webp" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="./image/header-2.webp" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- section 1  -->
+
+  <section class="section-1">
+    <div class="container-fluid w-100 position-relative p-0">
+      <!-- Background Image -->
+      <img src="./image/course_bg_1-2-1.webp" class="img-fluid position-absolute top-0 start-0 w-100 h-100"
+        style="object-fit: cover; z-index: -1" alt="Background Image" />
+
+      <!-- Content -->
+      <div class="container position-relative py-4">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 mt-5">
+            <h1 class="mt-5 fs-8" style="color: #000080; font-weight: 900">
+              Bright Future Ahead
+            </h1>
+            <h3 style="color: #ff5f19; font-weight: 600" class="fs-7">
+              Placement Record Speaks for Itself
+            </h3>
+            <p style="
                   color: black;
                   font-weight: 500;
                   font-family: 'Roboto', sans-serif;
-                "
-              >
-                Geeta University focuses on holistic student development by
-                offering specialized programs, skill enhancement workshops, and
-                industry collaborations. Through internships, live projects, and
-                dedicated placement drives, we ensure that students gain
-                practical experience. Our strong industry partnerships and
-                proactive placement cell work tirelessly to secure top job
-                opportunities for graduates, paving the way for their success.
-              </p>
-            </div>
-
-            <div class="col-12 col-md-6">
-              <h2>Section 2</h2>
-              <h3>Form API Key</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 2 -->
-    <section class="bg-light py-5">
-      <div class="container">
-        <div class="row justify-content-center">
-          <!-- Card 1 -->
-          <div class="col-12 col-md-4 mb-4">
-            <div
-              class="bg-blue-50 border rounded border-primary rounded-lg shadow p-4 text-center"
-            >
-              <div
-                class="bg-white rounded-circle p-3 mb-3 mx-auto"
-                style="width: 70px; height: 70px"
-              >
-                <i class="fas fa-users text-primary fs-4"></i>
-              </div>
-              <h2 class="text-orange-600 text-3xl font-bold fw-bold mb-2">
-                40 LPA
-              </h2>
-              <p class="text-primary text-uppercase font-weight-bold">
-                Highest Package
-              </p>
-            </div>
+                ">
+              Geeta University focuses on holistic student development by
+              offering specialized programs, skill enhancement workshops, and
+              industry collaborations. Through internships, live projects, and
+              dedicated placement drives, we ensure that students gain
+              practical experience. Our strong industry partnerships and
+              proactive placement cell work tirelessly to secure top job
+              opportunities for graduates, paving the way for their success.
+            </p>
           </div>
 
-          <!-- Card 2 -->
-          <div class="col-12 col-md-4 mb-4">
-            <div
-              class="bg-red-50 border rounded border-danger rounded-lg shadow p-4 text-center"
-            >
-              <div
-                class="bg-white rounded-circle p-3 mb-3 mx-auto"
-                style="width: 70px; height: 70px"
-              >
-                <i class="fas fa-user-tie text-danger fs-4"></i>
-              </div>
-              <h2 class="text-orange-600 text-3xl font-bold fw-bold mb-2">
-                445+
-              </h2>
-              <p class="text-danger text-uppercase font-weight-bold">
-                Recruiters
-              </p>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="col-12 col-md-4 mb-4">
-            <div
-              class="bg-blue-50 border rounded border-primary rounded-lg shadow p-4 text-center"
-            >
-              <div
-                class="bg-white rounded-circle p-3 mb-3 mx-auto"
-                style="width: 70px; height: 70px"
-              >
-                <i class="fas fa-laptop-code text-primary fs-4"></i>
-              </div>
-              <h2 class="text-orange-600 text-3xl font-bold fw-bold mb-2">
-                3,000+
-              </h2>
-              <p class="text-primary text-uppercase font-weight-bold">
-                Job Offers
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 3 -->
-
-    <section class="carousel-container py-5 bg-light">
-      <div class="container text-center">
-        <h2 class="mb-4 fw-bold text-primary">Top Recruiters</h2>
-        <div class="overflow-hidden position-relative">
-          <div
-            class="d-flex justify-content-start align-items-center carousel animate-scroll"
-          >
-            <!-- Recruiter Logos -->
-            <img src="./image/Top Recruiters/rec1.jpg" class="img-fluid mx-3" />
-            <img src="./image/Top Recruiters/rec2.jpg" class="img-fluid mx-3" />
-            <img
-              src="./image/Top Recruiters/rec4.jpg"
-              alt="Josh Technology Group"
-              class="img-fluid mx-3"
-            />
-            <img src="./image/Top Recruiters/rec5.jpg" class="img-fluid mx-3" />
-            <img src="./image/Top Recruiters/rec6.jpg" class="img-fluid mx-3" />
-            <img src="./image/Top Recruiters/rec7.jpg" class="img-fluid mx-3" />
-            <!-- Duplicate logos for seamless scrolling -->
-            <img src="./image/Top Recruiters/rec8.jpg" class="img-fluid mx-3" />
-            <img src="./image/Top Recruiters/rec9.jpg" class="img-fluid mx-3" />
-            <img
-              src="./image/Top Recruiters/rec10.jpg"
-              class="img-fluid mx-3"
-            />
-            <img
-              src="./image/Top Recruiters/rec13.jpg"
-              class="img-fluid mx-3"
-            />
-            <img
-              src="./image/Top Recruiters/rec22.jpg"
-              class="img-fluid mx-3"
-            />
-            <img
-              src="./image/Top Recruiters/rec23.jpg"
-              class="img-fluid mx-3"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 4 -->
-
-    <!-- Virtual Campus Tour Section -->
-    <div class="campus-banner">
-      <div class="text-center">
-        <!-- Play Button -->
-        <button
-          class="play-button"
-          data-bs-toggle="modal"
-          data-bs-target="#videoModal"
-        >
-          <i class="fas fa-play"></i>
-        </button>
-        <!-- Text -->
-        <h1 class="mt-3 fw-bold">Virtual Campus Tour</h1>
-      </div>
-    </div>
-
-    <!-- Video Modal -->
-    <div
-      class="modal fade"
-      id="videoModal"
-      tabindex="-1"
-      aria-labelledby="videoModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body p-0">
-            <!-- YouTube Video Embed -->
-            <div class="ratio ratio-16x9">
-              <iframe
-                id="videoIframe"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="YouTube video"
-                allowfullscreen
-              ></iframe>
-            </div>
+          <div class="col-12 col-md-6">
+            <div class="npf_wgts" data-height="510px" data-w="cc53b914cae1d736d235f9adb19f5426"></div>
+       
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- section 5 programs -->
-    <section class="container my-5">
-      <div class="row">
-        <div class="text-center">
-          <h1 class="text-4xl font-bold text-blue-900">Programs Offered</h1>
-          <p class="text-lg text-gray-700 mt-2">
-            70+ Study Programs at Diploma, UG, PG, and Ph.D. Levels
-          </p>
+  <!-- Section 2 -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="bg-blue-50 rounded-lg shadow p-4 text-center">
+            <div class="bg-white rounded-circle p-3 mb-3 mx-auto" style="width: 70px; height: 70px">
+              <i class="fas fa-users text-primary fs-4"></i>
+            </div>
+            <h2 class="text-orange-600 font-bold fw-bold mb-2" style="font-size: 3rem;">
+              40 LPA
+            </h2>
+            <p class="text-primary text-uppercase font-weight-bold" style="font-size: 1.2rem;">
+              Highest Package
+            </p>
+          </div>
         </div>
-        <!-- Column 1 -->
-        <div class="col-md-6">
-          <div class="accordion" id="accordionAI">
-            <!-- Track-1 - Artificial Intelligence (AI) -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingAI">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseAI"
-                  aria-expanded="false"
-                  aria-controls="collapseAI"
-                >
-                  Computer Science & Engineering
-                </button>
-              </h2>
-              <div
-                id="collapseAI"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingAI"
-                data-bs-parent="#accordionAI"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Focuses on the design, development, and deployment of smart
-                    systems in various domains.
-                  </h6>
-                  <ul>
-                    <li>Smart cities and infrastructure</li>
-                    <li>Smart homes and buildings</li>
-                    <li>Smart healthcare systems</li>
-                    <li>
-                      Internet of Things (IoT) solutions for intelligent
-                      environments
-                    </li>
-                    <li>Smart transportation and logistics</li>
-                    <li>Automation in agriculture and smart farming</li>
-                  </ul>
-                </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="bg-red-50 rounded-lg shadow p-4 text-center">
+            <div class="bg-white rounded-circle p-3 mb-3 mx-auto" style="width: 70px; height: 70px">
+              <i class="fas fa-user-tie text-danger fs-4"></i>
+            </div>
+            <h2 class="text-orange-600 font-bold fw-bold mb-2" style="font-size: 3rem;">
+              445+
+            </h2>
+            <p class="text-danger text-uppercase font-weight-bold" style="font-size: 1.2rem;">
+              Recruiters
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="bg-blue-50 rounded-lg shadow p-4 text-center">
+            <div class="bg-white rounded-circle p-3 mb-3 mx-auto" style="width: 70px; height: 70px">
+              <i class="fas fa-laptop-code text-primary fs-4"></i>
+            </div>
+            <h2 class="text-orange-600 font-bold fw-bold mb-2" style="font-size: 3rem;">
+              3 000+
+            </h2>
+            <p class="text-primary text-uppercase font-weight-bold" style="font-size: 1.2rem;">
+              Job Offers
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3 -->
+  <section class="carousel-container py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4 fw-bold " style="color: #000080;">Top Recruiters</h2>
+      <div class="overflow-hidden position-relative">
+        <div class="carousel animate-scroll">
+          <!-- Recruiter Logos -->
+          <img src="./image/Top Recruiters/rec1.jpg" class="img-fluid mx-1  w-25" />
+          <img src="./image/Top Recruiters/rec2.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec4.jpg" alt="Josh Technology Group" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec5.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec6.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec7.jpg" class="img-fluid mx-1 w-25" />
+          <!-- Duplicate logos for seamless scrolling -->
+          <img src="./image/Top Recruiters/rec8.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec9.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec10.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec13.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec22.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/Top Recruiters/rec23.jpg" class="img-fluid mx-1 w-25" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section 4 -->
+
+  <!-- Virtual Campus Tour Section -->
+  <div class="campus-banner">
+    <div class="text-center">
+      <!-- Play Button -->
+      <button class="play-button" data-bs-toggle="modal" data-bs-target="#videoModal">
+        <i class="fas fa-play"></i>
+      </button>
+      <!-- Text -->
+      <h1 class="mt-3 fw-bold">Virtual Campus Tour</h1>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <!-- YouTube Video Embed -->
+          <div class="ratio ratio-16x9">
+            <iframe
+              id="videoIframe"
+              src="https://www.youtube.com/embed/EfNyyZ4f1vU?rel=0"
+              title="YouTube video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- section 5 programs -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="text-center mb-4">
+        <h2 class="fw-bold" style="color: #000080;">Programs Offered</h2>
+        <h4 class="text-lg fs-5 mt-2 " style="color: #ff5f19; font-family:sans-serif;">
+          70+ Study Programs at Diploma, UG, PG, and Ph.D. Levels
+        </h4>
+      </div>
+      <!-- Column 1 -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionAI">
+          <!-- course-1 - COMPUTER SCIENCE & ENGINEERING  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingAI">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#CSE" aria-expanded="false" aria-controls="collapseAI">
+                COMPUTER SCIENCE & ENGINEERING
+              </button>
+            </h2>
+            <div id="CSE" class="accordion-collapse collapse" aria-labelledby="headingAI"
+              data-bs-parent="#accordionAI">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>B.Tech. CSE</li>
+                  <li>B.Tech. CSE in AI & Machine Learning with Samatrix.io</li>
+                  <li>Smart healthcare systems</li>
+                  <li>
+                    B.Tech. CSE in Cyber Security
+                  </li>
+                  <li>B.Tech. CSE in Data Science & Business Analytics</li>
+                  <li>B.Tech. CSE in Full Stack Web Development</li>
+                  <li>M.Tech. CSE</li>
+                  <li>Ph.D. CSE</li>
+                </ul>
               </div>
             </div>
-            <br />
+          </div>
+          <br />
 
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingVision">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseVision"
-                  aria-expanded="false"
-                  aria-controls="collapseVision"
-                >
-                  Business Management
-                </button>
-              </h2>
-              <div
-                id="collapseVision"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingVision"
-                data-bs-parent="#accordionAI"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Covers emerging technologies in communication networks and
-                    their integration with intelligent systems.
-                  </h6>
-                  <ul>
-                    <li>5G/6G networks and beyond</li>
-                    <li>Wireless sensor networks and edge computing</li>
-                    <li>
-                      Blockchain and distributed systems in smart networks
-                    </li>
-                    <li>Network security and privacy solutions</li>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingVision">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BCA" aria-expanded="false" aria-controls="collapseVision">
+                COMPUTER APPLICATION
+              </button>
+            </h2>
+            <div id="BCA" class="accordion-collapse collapse" aria-labelledby="headingVision"
+              data-bs-parent="#accordionAI">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>BCA</li>
+                  <li>BCA in AIML with Samatrix.io</li>
+                  <li>
+                    BCA in Cyber Security
+                  </li>
+                  <li>BCA in Data Science & Business Analytics</li>
+                  <li>
+                    BCA in Full Stack Web Development
+                  </li>
+                  <li>MCA</li>
+                  <li>Ph.D. Computer Applications</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionTech">
+          <!-- course-2 - BBA -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingIntelligent">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BBA" aria-expanded="false" aria-controls="collapseIntelligent">
+                BUSINESS MANAGMENT
+              </button>
+            </h2>
+            <div id="BBA" class="accordion-collapse collapse" aria-labelledby="headingIntelligent"
+              data-bs-parent="#accordionTech">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>BBA</li>
+                  <li>BBA in International Accounting with ACCA, UK</li>
+                  <li>BBA in Digital Marketing</li>
+                  <li>BBA in Human Resource Management</li>
+                  <li>BBA in Import & Export Management</li>
+                  <li>BBA in Banking & Finance</li>
+                  <li>BBA in Marketing</li>
+                  <li>BBA in Entrepreneurship & Family Business</li>
+                  <li>BBA in Fintech</li>
+                  <li>BBA in AI & Data Analytics with Samatrix.io</li>
+                  <li>MBA (Executive MBA for working professionals)</li>
+                  <li>MBA in Finance</li>
+                  <li>MBA in Marketing</li>
+                  <li>MBA in HRM</li>
+                  <li>MBA in Supply Chain Management</li>
+                  <li>MBA in Pharmaceutical Management</li>
+                  <li>Ph.D. Management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <!-- course-4 - commerce -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSmart">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#BCOM" aria-expanded="false" aria-controls="collapseSmart">
+                COMMERCE
+              </button>
+            </h2>
+            <div id="BCOM" class="accordion-collapse collapse" aria-labelledby="headingSmart"
+              data-bs-parent="#accordionTech">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>B.Com.</li>
+                  <li>B.Com. in Auditing & Taxation</li>
+                  <li>
+                    B.Com. in Financial Market
+                  </li>
+                  <li>B.Com. in Banking & Insurance</li>
+                  <li>B.Com. in Advance Accounting</li>
+                  <li>B.Com. in International Accounting with ACCA, UK</li>
+                  <li>M.Com.</li>
+                  <li>Ph.D. Commerce</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+      <!-- Column 1 -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionAI">
+          <!-- Track-1 - Artificial Intelligence (AI) -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingAI">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#PHARMACY" aria-expanded="false" aria-controls="collapseAI">
+                PHARMACY
+              </button>
+            </h2>
+            <div id="PHARMACY" class="accordion-collapse collapse" aria-labelledby="headingAI"
+              data-bs-parent="#accordionAI">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>D.Pharmacy</li>
+                  <li>B.Pharmacy</li>
+                  <li>M.Pharmacy in Pharmaceutics</li>
+                  <li>
+                    Ph.D in Pharmacy
+                  </li>
+              
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingVision">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#AGRICULTURAL" aria-expanded="false" aria-controls="collapseVision">
+                AGRICULTURAL STUDIES
+              </button>
+            </h2>
+            <div id="AGRICULTURAL" class="accordion-collapse collapse" aria-labelledby="headingVision"
+              data-bs-parent="#accordionAI">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>B.Sc. (H) Agriculture</li>
+                  <li>M.Sc. Agronomy</li>
+                  <li>
+                    Ph.D. Agriculture
+                  </li>
+                  <!-- <li>Network security and privacy solutions</li>
                     <li>
                       Cloud computing and virtualization in intelligent systems
                     </li>
-                    <li>Cyber-physical systems and real-time communication</li>
-                  </ul>
-                </div>
+                    <li>Cyber-physical systems and real-time communication</li> -->
+                </ul>
               </div>
             </div>
-            <br />
           </div>
+          <br />
         </div>
+      </div>
 
-        <!-- Column 2 -->
-        <div class="col-md-6">
-          <div class="accordion" id="accordionTech">
-            <!-- Track-2 - Intelligent Computing -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingIntelligent">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseIntelligent"
-                  aria-expanded="false"
-                  aria-controls="collapseIntelligent"
-                >
-                  Computer Applications
-                </button>
-              </h2>
-              <div
-                id="collapseIntelligent"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingIntelligent"
-                data-bs-parent="#accordionTech"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Explores the role of artificial intelligence, machine
-                    learning, and data science in solving complex computational
-                    problems.
-                  </h6>
-                  <ul>
-                    <li>Machine learning and deep learning algorithms</li>
-                    <li>Data mining and predictive analytics</li>
-                    <li>Big data technologies and applications</li>
-                    <li>Natural language processing and sentiment analysis</li>
-                    <li>Reinforcement learning and adaptive systems</li>
-                    <li>Cognitive computing and knowledge representation</li>
-                  </ul>
-                </div>
+      <!-- Column 2 -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionTech">
+          <!-- Track-2 - Intelligent Computing -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingIntelligent">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#LAW" aria-expanded="false" aria-controls="collapseIntelligent">
+                LAW
+              </button>
+            </h2>
+            <div id="LAW" class="accordion-collapse collapse" aria-labelledby="headingIntelligent"
+              data-bs-parent="#accordionTech">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>B.A. LL.B. (Hons.) *</li>
+                  <li>BBA LL.B. (Hons.) *</li>
+                  <li>LL.M.</li>
+                  <li>Ph.D. Law</li>
+                  <!-- <li>Reinforcement learning and adaptive systems</li>
+                    <li>Cognitive computing and knowledge representation</li> -->
+                </ul>
               </div>
             </div>
-            <br />
-
-            <!-- Track-4 - Smart Technologies -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSmart">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSmart"
-                  aria-expanded="false"
-                  aria-controls="collapseSmart"
-                >
-                  Commerce
-                </button>
-              </h2>
-              <div
-                id="collapseSmart"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingSmart"
-                data-bs-parent="#accordionTech"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Focuses on ethical, sustainable, and secure applications of
-                    smart technologies.
-                  </h6>
-                  <ul>
-                    <li>Green computing and energy-efficient algorithms</li>
-                    <li>Sustainable technology solutions for industries</li>
-                    <li>
-                      Cybersecurity challenges and solutions for intelligent
-                      systems
-                    </li>
-                    <li>Blockchain for secure and transparent systems</li>
-                    <li>Ethical AI and responsible technology use</li>
-                    <li>Data privacy and protection in smart technologies</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
           </div>
+          <br />
+
+          <!-- Track-4 - Smart Technologies -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSmart">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#HHM" aria-expanded="false" aria-controls="collapseSmart">
+                HOSPITALITY & HOTEL MANAGAMENT
+              </button>
+            </h2>
+            <div id="HHM" class="accordion-collapse collapse" aria-labelledby="headingSmart"
+              data-bs-parent="#accordionTech">
+              <div class="accordion-body">
+                <h6>
+                  Focuses on ethical, sustainable, and secure applications of
+                  smart technologies.
+                </h6>
+                <ul>
+                  <li>Diploma in Food & Beverage Services</li>
+                  <li>Diploma in Food Production</li>
+                  <li>
+                    B.Sc. Hotel Management
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
         </div>
-        <!-- Column 1 -->
-        <div class="col-md-6">
-          <div class="accordion" id="accordionAI">
-            <!-- Track-1 - Artificial Intelligence (AI) -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingAI">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseAI"
-                  aria-expanded="false"
-                  aria-controls="collapseAI"
-                >
-                  Computer Science & Engineering
-                </button>
-              </h2>
-              <div
-                id="collapseAI"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingAI"
-                data-bs-parent="#accordionAI"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Focuses on the design, development, and deployment of smart
-                    systems in various domains.
-                  </h6>
-                  <ul>
-                    <li>Smart cities and infrastructure</li>
-                    <li>Smart homes and buildings</li>
-                    <li>Smart healthcare systems</li>
-                    <li>
-                      Internet of Things (IoT) solutions for intelligent
-                      environments
-                    </li>
-                    <li>Smart transportation and logistics</li>
+      </div>
+      <!-- Column 1 -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionAI">
+          <!-- Track-1 - Artificial Intelligence (AI) -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingAI">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#ND" aria-expanded="false" aria-controls="collapseAI">
+                NUTRITION & DIETETICS
+              </button>
+            </h2>
+            <div id="ND" class="accordion-collapse collapse" aria-labelledby="headingAI"
+              data-bs-parent="#accordionAI">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>B.Sc. Nutrition & Dietetics</li>
+                  <li>M.Sc. Nutrition & Dietetics</li>
+                  <li>Ph.D. Nutrition & Dietetics</li>
+                  <li>
+                    Master of Public Health
+                  </li>
+                  <!-- <li>Smart transportation and logistics</li>
                     <li>Automation in agriculture and smart farming</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingVision">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseVision"
-                  aria-expanded="false"
-                  aria-controls="collapseVision"
-                >
-                  Business Management
-                </button>
-              </h2>
-              <div
-                id="collapseVision"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingVision"
-                data-bs-parent="#accordionAI"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Covers emerging technologies in communication networks and
-                    their integration with intelligent systems.
-                  </h6>
-                  <ul>
-                    <li>5G/6G networks and beyond</li>
-                    <li>Wireless sensor networks and edge computing</li>
-                    <li>
-                      Blockchain and distributed systems in smart networks
-                    </li>
-                    <li>Network security and privacy solutions</li>
-                    <li>
-                      Cloud computing and virtualization in intelligent systems
-                    </li>
-                    <li>Cyber-physical systems and real-time communication</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-          </div>
-        </div>
-
-        <!-- Column 2 -->
-        <div class="col-md-6">
-          <div class="accordion" id="accordionTech">
-            <!-- Track-2 - Intelligent Computing -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingIntelligent">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseIntelligent"
-                  aria-expanded="false"
-                  aria-controls="collapseIntelligent"
-                >
-                  Computer Applications
-                </button>
-              </h2>
-              <div
-                id="collapseIntelligent"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingIntelligent"
-                data-bs-parent="#accordionTech"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Explores the role of artificial intelligence, machine
-                    learning, and data science in solving complex computational
-                    problems.
-                  </h6>
-                  <ul>
-                    <li>Machine learning and deep learning algorithms</li>
-                    <li>Data mining and predictive analytics</li>
-                    <li>Big data technologies and applications</li>
-                    <li>Natural language processing and sentiment analysis</li>
-                    <li>Reinforcement learning and adaptive systems</li>
-                    <li>Cognitive computing and knowledge representation</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-
-            <!-- Track-4 - Smart Technologies -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSmart">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSmart"
-                  aria-expanded="false"
-                  aria-controls="collapseSmart"
-                >
-                  Commerce
-                </button>
-              </h2>
-              <div
-                id="collapseSmart"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingSmart"
-                data-bs-parent="#accordionTech"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Focuses on ethical, sustainable, and secure applications of
-                    smart technologies.
-                  </h6>
-                  <ul>
-                    <li>Green computing and energy-efficient algorithms</li>
-                    <li>Sustainable technology solutions for industries</li>
-                    <li>
-                      Cybersecurity challenges and solutions for intelligent
-                      systems
-                    </li>
-                    <li>Blockchain for secure and transparent systems</li>
-                    <li>Ethical AI and responsible technology use</li>
-                    <li>Data privacy and protection in smart technologies</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-          </div>
-        </div>
-        <!-- Column 1 -->
-        <div class="col-md-6">
-          <div class="accordion" id="accordionAI">
-            <!-- Track-1 - Artificial Intelligence (AI) -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingAI">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseAI"
-                  aria-expanded="false"
-                  aria-controls="collapseAI"
-                >
-                  Computer Science & Engineering
-                </button>
-              </h2>
-              <div
-                id="collapseAI"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingAI"
-                data-bs-parent="#accordionAI"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Focuses on the design, development, and deployment of smart
-                    systems in various domains.
-                  </h6>
-                  <ul>
-                    <li>Smart cities and infrastructure</li>
-                    <li>Smart homes and buildings</li>
-                    <li>Smart healthcare systems</li>
-                    <li>
-                      Internet of Things (IoT) solutions for intelligent
-                      environments
-                    </li>
-                    <li>Smart transportation and logistics</li>
-                    <li>Automation in agriculture and smart farming</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingVision">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseVision"
-                  aria-expanded="false"
-                  aria-controls="collapseVision"
-                >
-                  Business Management
-                </button>
-              </h2>
-              <div
-                id="collapseVision"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingVision"
-                data-bs-parent="#accordionAI"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Covers emerging technologies in communication networks and
-                    their integration with intelligent systems.
-                  </h6>
-                  <ul>
-                    <li>5G/6G networks and beyond</li>
-                    <li>Wireless sensor networks and edge computing</li>
-                    <li>
-                      Blockchain and distributed systems in smart networks
-                    </li>
-                    <li>Network security and privacy solutions</li>
-                    <li>
-                      Cloud computing and virtualization in intelligent systems
-                    </li>
-                    <li>Cyber-physical systems and real-time communication</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-          </div>
-        </div>
-
-        <!-- Column 2 -->
-        <div class="col-md-6">
-          <div class="accordion" id="accordionTech">
-            <!-- Track-2 - Intelligent Computing -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingIntelligent">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseIntelligent"
-                  aria-expanded="false"
-                  aria-controls="collapseIntelligent"
-                >
-                  Computer Applications
-                </button>
-              </h2>
-              <div
-                id="collapseIntelligent"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingIntelligent"
-                data-bs-parent="#accordionTech"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Explores the role of artificial intelligence, machine
-                    learning, and data science in solving complex computational
-                    problems.
-                  </h6>
-                  <ul>
-                    <li>Machine learning and deep learning algorithms</li>
-                    <li>Data mining and predictive analytics</li>
-                    <li>Big data technologies and applications</li>
-                    <li>Natural language processing and sentiment analysis</li>
-                    <li>Reinforcement learning and adaptive systems</li>
-                    <li>Cognitive computing and knowledge representation</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-
-            <!-- Track-4 - Smart Technologies -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSmart">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSmart"
-                  aria-expanded="false"
-                  aria-controls="collapseSmart"
-                >
-                  Commerce
-                </button>
-              </h2>
-              <div
-                id="collapseSmart"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingSmart"
-                data-bs-parent="#accordionTech"
-              >
-                <div class="accordion-body">
-                  <h6>
-                    Focuses on ethical, sustainable, and secure applications of
-                    smart technologies.
-                  </h6>
-                  <ul>
-                    <li>Green computing and energy-efficient algorithms</li>
-                    <li>Sustainable technology solutions for industries</li>
-                    <li>
-                      Cybersecurity challenges and solutions for intelligent
-                      systems
-                    </li>
-                    <li>Blockchain for secure and transparent systems</li>
-                    <li>Ethical AI and responsible technology use</li>
-                    <li>Data privacy and protection in smart technologies</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- section 5 maping -->
-    <section class="mapping">
-      <div class="container">
-        <!-- Text Section -->
-        <div class="text-center pt-5">
-          <h1 class="fw-bold fs-7 fs-md-2" style="color: orange">A HUB OF</h1>
-          <h2 class="fw-bold fs-8 fs-md-3" style="color: royalblue">
-            GLOBALLY BENCHMARKED EDUCATION
-          </h2>
-        </div>
-      </div>
-
-      <div
-        class="container text-center py-5 position-relative"
-        style="min-height: 300px; height: auto"
-      >
-        <!-- Image Section -->
-        <img
-          src="./image/map.webp"
-          class="img-fluid mx-auto d-block w-100 w-md-75 mt-2 mt-md-5"
-          alt="Map of India"
-        />
-      </div>
-    </section>
-
-    <!-- section 6 join us form -->
-
-    <section class="carousel-container py-5">
-      <div class="container">
-        <h2 class="custom-underline">UNIVERSE OF GU</h2>
-
-        <ul class="mt-3 list-unstyled text-orange-600">
-          <li>&#9656; Students & staff representing 14 countries</li>
-          <li>&#9656; MOU with Prestigious Global Universities</li>
-          <li>&#9656; International Internships</li>
-        </ul>
-      </div>
-
-     
-      
-      
-      
-      <div class="container text-center">
-        <div class="overflow-hidden position-relative">
-          <div
-            class="d-flex justify-content-start align-items-center carousel animate-scroll"
-          >
-            <!-- Recruiter Logos -->
-            <img src="./image/country/1-1.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/10.jpg" class="img-fluid mx-3" />
-            <img
-              src="./image/country/10.jpg"
-              alt="Josh Technology Group"
-              class="img-fluid mx-3"
-            />
-            <img src="./image/country/14-1.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/11.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/19-1.jpg" class="img-fluid mx-3" />
-            <!-- Duplicate logos for seamless scrolling -->
-            <img src="./image/country/19-1.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/14-1.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/11.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/17-1.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/9.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/8.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/7.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/5.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/6.jpg" class="img-fluid mx-3" />
-            <img src="./image/country/4.jpg" class="img-fluid mx-3" />
-          </div>
-        </div>
-      </div>
-      
-    </section>
-
-    <!-- section 7 why join geeta university -->
-
-    <div class="container py-5">
-      <!-- Centered Heading -->
-      <div class="text-center px-4">
-        <h2 class="display-6 text-black fw-bold">Why Join Geeta University?</h2>
-      </div>
-
-      <!-- Accordion Section -->
-      <div class="row mt-5 px-4">
-        <div class="col-12 col-md-6">
-          <div class="accordion" id="whyJoinAccordion">
-            <!-- Outcome-Based Education -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button
-                  class="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Outcome-Based Education (OBE)
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingOne"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  Outcome-based education focuses on measurable student
-                  performance through outcomes such as knowledge, skills, and
-                  attitudes.
-                </div>
-              </div>
-            </div>
-
-            <!-- Digitally Enabled Campus -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Digitally Enabled Campus
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  A campus equipped with cutting-edge digital tools and
-                  resources for an enhanced learning experience.
-                </div>
-              </div>
-            </div>
-
-            <!-- Industry-Collaborated Curriculum -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  Industry-Collaborated Curriculum
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingThree"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  Learn through curricula developed in collaboration with
-                  industry leaders, ensuring job readiness.
-                </div>
-              </div>
-            </div>
-
-            <!-- Interdisciplinary Research Labs -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour"
-                  aria-expanded="false"
-                  aria-controls="collapseFour"
-                >
-                  Interdisciplinary Research Labs
-                </button>
-              </h2>
-              <div
-                id="collapseFour"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingFour"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  State-of-the-art research facilities for innovative
-                  interdisciplinary projects.
-                </div>
-              </div>
-            </div>
-
-            <!-- Skill Enhancement Certifications -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFive">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive"
-                  aria-expanded="false"
-                  aria-controls="collapseFive"
-                >
-                  Skill Enhancement Certifications
-                </button>
-              </h2>
-              <div
-                id="collapseFive"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingFive"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  Gain certifications in emerging skills and technologies to
-                  enhance employability.
-                </div>
-              </div>
-            </div>
-
-            <!-- Earn While You Learn -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSix">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSix"
-                  aria-expanded="false"
-                  aria-controls="collapseSix"
-                >
-                  Earn While You Learn
-                </button>
-              </h2>
-              <div
-                id="collapseSix"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingSix"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  Opportunities to work on campus or with partner organizations
-                  while studying.
-                </div>
-              </div>
-            </div>
-
-            <!-- Distinguished Faculty -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSeven">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSeven"
-                  aria-expanded="false"
-                  aria-controls="collapseSeven"
-                >
-                  Distinguished Faculty
-                </button>
-              </h2>
-              <div
-                id="collapseSeven"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingSeven"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  Learn from highly experienced and accomplished faculty
-                  members.
-                </div>
-              </div>
-            </div>
-
-            <!-- Flexible Credit System -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingEight">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseEight"
-                  aria-expanded="false"
-                  aria-controls="collapseEight"
-                >
-                  Flexible Credit System
-                </button>
-              </h2>
-              <div
-                id="collapseEight"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingEight"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  A flexible credit system that allows you to design your
-                  learning path.
-                </div>
-              </div>
-            </div>
-
-            <!-- Global Opportunities -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingNine">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseNine"
-                  aria-expanded="false"
-                  aria-controls="collapseNine"
-                >
-                  Global Opportunities
-                </button>
-              </h2>
-              <div
-                id="collapseNine"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingNine"
-                data-bs-parent="#whyJoinAccordion"
-              >
-                <div class="accordion-body">
-                  Access to international programs, exchange opportunities, and
-                  global exposure.
-                </div>
+                  </ul> -->
               </div>
             </div>
           </div>
-        </div>
+          <br />
 
-        <!-- Image Section -->
-        <div
-          class="col-12 col-md-6 text-center d-flex align-items-center justify-content-center"
-        >
-          <img
-            src="image/Picture122244.png"
-            alt="University offerings with a smiling student"
-            class="w-75 rounded-circle mt-5"
-          />
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingVision">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#HSM" aria-expanded="false" aria-controls="collapseVision">
+                HUMANITIES & SOCIAL SCIENCES
+              </button>
+            </h2>
+            <div id="HSM" class="accordion-collapse collapse" aria-labelledby="headingVision"
+              data-bs-parent="#accordionAI">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>B.A. Economics</li>
+                  <li>B.A. Political Science</li>
+                  <li>
+                    B.A. Psychology
+                  </li>
+                  <li>M.A. Political Science</li>
+                  <li>
+                    M.A. Psychology
+                  </li>
+                  <li>B.A. Social Work</li>
+                  <li>Ph.D. Psychology </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
         </div>
       </div>
 
-     
-      
-      <div class="mt-4 custom-bg p-4 rounded-lg d-flex flex-column flex-md-row gap-4">
-        <div class="col-md-8">
-          <h3 class="h4 fw-bold text-primary">Scholarships at Geeta University</h3>
-          <p class="mt-3">We believe that financial constraints should not limit access to quality education. At Geeta University, we offer scholarships based on:</p>
-          <ul class="mt-3 text-danger">
-            <li>Merit/Percentage in Qualifying Exams</li>
-            <li>National Level Entrance Exams (JEE, CUET, NEET, CLAT, and more)</li>
-            <li>Social Responsibility</li>
-            <li>Sports Performance</li>
-          </ul>
-          <button type="button" class="btn btn-primary btn-apply mt-4">
-            Apply Now
-            <i class="fas fa-arrow-right"></i>
-          </button>
-        </div>
-        <div class="col-md-4">
-          <h3 class="h4 fw-bold text-primary">GU Cute</h3>
-          <p class="mt-3 fw-bold">GU Common University Entrance Test</p>
-          <p class="mt-3">Geeta University (GU) strongly believes that monetary constraints should not be an obstacle for a student to have access to quality education. Following scholarships are offered at GU:</p>
-          <div class="mt-3 d-flex align-items-center">
-            <i class="fas fa-phone-alt text-danger me-2"></i>
-            <span>9996291400</span>
+      <!-- Column 2 -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionTech">
+          <!-- Track-2 - Intelligent Computing -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingIntelligent">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#FS" aria-expanded="false" aria-controls="collapseIntelligent">
+                FORENSIC SCIENCE
+              </button>
+            </h2>
+            <div id="FS" class="accordion-collapse collapse" aria-labelledby="headingIntelligent"
+              data-bs-parent="#accordionTech">
+              <div class="accordion-body">
+
+                <ul>
+                  <li>B.Sc. Forensic Science</li>
+                  <li>M.Sc. Forensic Science</li>
+                  <li>Ph.D. Forensic Science</li>
+                  <li>Ph.D Maths</li>
+                  <!-- <li>Reinforcement learning and adaptive systems</li>
+                    <li>Cognitive computing and knowledge representation</li> -->
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="d-flex align-items-center mt-2">
-            <i class="fas fa-envelope text-danger me-2"></i>
-            <span>gucucet@develop.geetauniversity.edu.in</span>
-          </div>
-          <button type="button" class="btn btn-primary btn-apply mt-4">
-            Apply Now
-            <i class="fas fa-arrow-right"></i>
-          </button>
+          <br />
+
+
+          <br />
         </div>
       </div>
-      
-      
+    </div>
+  </section>
+
+  <!-- section 5 maping -->
+  <section class="mapping">
+    <div class="container">
+      <!-- Text Section -->
+      <div class="text-center pt-5">
+        <h1 class="fw-bold fs-7 fs-md-2" style="color: #000080">A HUB OF</h1>
+        <h2 class="fw-bold fs-8 fs-md-3" style="color: #ff5f19">
+          GLOBALLY BENCHMARKED EDUCATION
+        </h2>
+      </div>
+    </div>
+
+    <div class="container text-center py-5 position-relative" style="min-height: 300px; height: auto">
+      <!-- Image Section -->
+      <img src="./image/map.webp" class="img-fluid mx-auto d-block w-100 w-md-75 mt-2 mt-md-5" alt="Map of India" />
+    </div>
+  </section>
+
+  <!-- section 6 join us form -->
+
+  <section class="carousel-container py-5">
+    <div class="container">
+      <h2 class="custom-underline fw-bold" style="color: #000080;">
+        UNIVERSE OF GU
+      </h2>
+    
+      <ul class="mt-3 list-unstyled text-orange-600 text-start">
+        <li>&#9656; Students & staff representing 14 countries</li>
+        <li>&#9656; MOU with Prestigious Global Universities</li>
+        <li>&#9656; International Internships</li>
+      </ul>
     </div>
     
+    
 
-    <!-- spotlite section -->
-    <!-- student feedback  section -->
-    <section>
-      <div class="container py-5">
-        <h2 class="text-center mb-4">Student Community Feedback</h2>
-      
-        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <!-- Carousel Item 1 -->
-            <div class="carousel-item active">
-              <div class="row g-3">
-                <div class="col-12 col-md-6 mx-auto">
-                  <div class="testimonial-card text-center">
-                    <img
-                      src="./image/WhatsApp Image 2025-01-13 at 15.51.11_b4ef1858.jpg"
-                      alt="Ms. Monika Jaglan"
-                      class="img-fluid"
-                    />
-                    <h5 class="testimonial-name mt-3">Ms. Monika Jaglan</h5>
-                    <p class="testimonial-title">Ministry of Information</p>
-                    <p class="testimonial-text">
-                      "My teachers helped me build a rock solid foundation of
-                      excellent academics and gave me the confidence to dream and
-                      achieve. It helped me reach the place where I am today."
-                    </p>
-                  </div>
-                </div>
+    <div class="container text-center">
+      <div class="overflow-hidden position-relative mt-5">
+        <div class="d-flex justify-content-start align-items-center carousel animate-scroll">
+          <!-- Recruiter Logos -->
+          <img src="./image/country/1-1.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/10.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/23.jpg" alt="Josh Technology Group" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/14-1.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/11.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/19-1.jpg" class="img-fluid mx-1 w-25" />
+          <!-- Duplicate logos for seamless scrolling -->
+          <img src="./image/country/22-1.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/14-1.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/11.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/17-1.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/9.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/8.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/7.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/5.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/6.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/country/4.jpg" class="img-fluid mx-1 w-25" />
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- section 7 why join geeta university -->
+
+  <div class="container py-5">
+    <!-- Centered Heading -->
+    <div class="text-center px-4">
+      <h2 class="display-6  fw-bold" style="color: #000080;">Why Join Geeta University?</h2>
+    </div>
+
+    <!-- Accordion Section -->
+    <div class="row mt-5 px-4">
+      <div class="col-12 col-md-6">
+        <div class="accordion" id="whyJoinAccordion">
+          <!-- Outcome-Based Education -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Outcome-Based Education (OBE)
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                Outcome-based education focuses on measurable student
+                performance through outcomes such as knowledge, skills, and
+                attitudes.
               </div>
             </div>
-      
-            <!-- Carousel Item 2 -->
-            <div class="carousel-item">
-              <div class="row g-3">
-                <div class="col-12 col-md-6 mx-auto">
-                  <div class="testimonial-card text-center">
-                    <img
-                      src="./image/WhatsApp Image 2025-01-13 at 15.51.10_34a3dacb.jpg"
-                      alt="Mr. Yakshup Goel"
-                      class="img-fluid"
-                    />
-                    <h5 class="testimonial-name mt-3">Mr. Yakshup Goel</h5>
-                    <p class="testimonial-title">
-                      Apisero, Pune [Package - 40LPA]
-                    </p>
-                    <p class="testimonial-text">
-                      "The two years I spent at the Geeta University Campus, inspired
-                      me to persevere & never give up on anything irrespective of how
-                      difficult it might seem. The practical lessons learnt here were
-                      instrumental in building my career."
-                    </p>
-                  </div>
-                </div>
+          </div>
+
+          <!-- Digitally Enabled Campus -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Digitally Enabled Campus
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                A campus equipped with cutting-edge digital tools and
+                resources for an enhanced learning experience.
               </div>
             </div>
-      
-            <!-- Carousel Item 3 -->
-            <div class="carousel-item">
-              <div class="row g-3">
-                <div class="col-12 col-md-6 mx-auto">
-                  <div class="testimonial-card text-center">
-                    <img
-                      src="./image/WhatsApp Image 2025-01-13 at 15.51.11_546adbab.jpg"
-                      alt="Ms. Pooja Sharma"
-                      class="img-fluid"
-                    />
-                    <h5 class="testimonial-name mt-3">Ms. Pooja Sharma</h5>
-                    <p class="testimonial-title">Software Engineer</p>
-                    <p class="testimonial-text">
-                      "The hands-on learning experience at Geeta University was
-                      invaluable. It shaped my confidence and prepared me to tackle
-                      real-world challenges in my career."
-                    </p>
-                  </div>
-                </div>
+          </div>
+
+          <!-- Industry-Collaborated Curriculum -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Industry-Collaborated Curriculum
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                Learn through curricula developed in collaboration with
+                industry leaders, ensuring job readiness.
               </div>
             </div>
-      
-            <!-- Carousel Item 4 -->
-            <div class="carousel-item">
-              <div class="row g-3">
-                <div class="col-12 col-md-6 mx-auto">
-                  <div class="testimonial-card text-center">
-                    <img
-                      src="./image/WhatsApp Image 2025-01-13 at 15.51.11_78cc3ff2.jpg"
-                      alt="Mr. Raj Malhotra"
-                      class="img-fluid"
-                    />
-                    <h5 class="testimonial-name mt-3">Mr. Raj Malhotra</h5>
-                    <p class="testimonial-title">Data Scientist</p>
-                    <p class="testimonial-text">
-                      "I owe my success to the incredible mentors and peers at Geeta
-                      University. Their constant support and encouragement made all
-                      the difference."
-                    </p>
-                  </div>
+          </div>
+
+          <!-- Interdisciplinary Research Labs -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Interdisciplinary Research Labs
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                State-of-the-art research facilities for innovative
+                interdisciplinary projects.
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Enhancement Certifications -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Skill Enhancement Certifications
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                Gain certifications in emerging skills and technologies to
+                enhance employability.
+              </div>
+            </div>
+          </div>
+
+          <!-- Earn While You Learn -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Earn While You Learn
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                Opportunities to work on campus or with partner organizations
+                while studying.
+              </div>
+            </div>
+          </div>
+
+          <!-- Distinguished Faculty -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Distinguished Faculty
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                Learn from highly experienced and accomplished faculty
+                members.
+              </div>
+            </div>
+          </div>
+
+          <!-- Flexible Credit System -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                Flexible Credit System
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                A flexible credit system that allows you to design your
+                learning path.
+              </div>
+            </div>
+          </div>
+
+          <!-- Global Opportunities -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                Global Opportunities
+              </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+              data-bs-parent="#whyJoinAccordion">
+              <div class="accordion-body">
+                Access to international programs, exchange opportunities, and
+                global exposure.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="col-12 col-md-6 text-center d-flex align-items-center justify-content-center">
+        <img src="image/Picture122244.png" alt="University offerings with a smiling student"
+          class="w-75 rounded-circle mt-5 d-none d-md-block" />
+      </div>
+
+    </div>
+
+
+
+    <div class="mt-4 custom-bg p-4 rounded-lg d-flex flex-column flex-md-row gap-4">
+      <div class="col-md-8">
+        <h3 class="h4 fw-bold" style="color: #000080;">Scholarships at Geeta University</h3>
+        <p class="mt-3">We believe that financial constraints should not limit access to quality education. At Geeta
+          University, we offer scholarships based on:</p>
+        <ul class="mt-3 ">
+          <li>Merit/Percentage in Qualifying Exams</li>
+          <li>National Level Entrance Exams (JEE, CUET, NEET, CLAT, and more)</li>
+          <li>Social Responsibility</li>
+          <li>Sports Performance</li>
+        </ul>
+       <a href="https://geetauniversity.edu.in/scholarship-predictor/" target="_blank"> <button type="button" style="background-color: #ff5f19; color: white;" class="btn btn-apply mt-4">
+        Scholarship
+        <i class="fas fa-arrow-right"></i>
+      </button></a>
+      </div>
+      <div class="col-md-4 guts-section">
+        <h3 class="h4 fw-bold " style="color: #000080;">GUTS</h3>
+        <p class="mt-3 fw-bold" style="color: #ff5f19;">GU TEST OF SCHOLARSHIP</p>
+        <p class="mt-3">Geeta University (GU) strongly believes that monetary constraints should not be an obstacle for
+          a student to have access to quality education. Following scholarships are offered at GU:</p>
+        <div class="mt-3 d-flex align-items-center">
+          <i class="fas fa-phone-alt me-2" style="color: #ff5f19;"></i>
+          <span style="color: #ff5f19;">9996291400</span>
+        </div>
+        <div class="d-flex align-items-center mt-2" style="color: #ff5f19;">
+          <i class="fas fa-envelope me-2"></i>
+          <span>gucucet@develop.geetauniversity.edu.in</span>
+        </div>
+        <a href="https://geetauniversity.edu.in/guts/" target="_blank">
+          <button type="button" style="background-color: #ff5f19; color: white;" class="btn btn-apply mt-4">
+            Apply Now
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+      <div class="col-md-4 mobile-guts-image d-none">
+        <img src="image/17-qxxa2wel5yi7zkbuyzau186gy5cbmqhtzb2vbpn3zw.jpg" alt="Scholarship Image"
+          class="w-100 rounded-lg">
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+  <!-- spotlite section -->
+  <!-- student feedback  section -->
+  <section>
+    <div class="container py-5">
+      <h2 class="text-center fw-bold mb-4" style="color: #000080;" >Student Community Feedback</h2>
+
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Carousel Item 1 -->
+          <div class="carousel-item active">
+            <div class="row g-3">
+              <div class="col-12 col-md-6 mx-auto">
+                <div class="testimonial-card text-center">
+                  <img src="./image/WhatsApp Image 2025-01-13 at 15.51.11_b4ef1858.jpg" alt="Ms. Monika Jaglan"
+                    class="img-fluid" />
+                  <h5 class="testimonial-name mt-3">Ms. Monika Jaglan</h5>
+                  <p class="testimonial-title">Ministry of Information</p>
+                  <p class="testimonial-text">
+                    "My teachers helped me build a rock solid foundation of
+                    excellent academics and gave me the confidence to dream and
+                    achieve. It helped me reach the place where I am today."
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-      
-          <!-- Carousel Controls -->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#testimonialCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#testimonialCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
+          <!-- Carousel Item 2 -->
+          <div class="carousel-item">
+            <div class="row g-3">
+              <div class="col-12 col-md-6 mx-auto">
+                <div class="testimonial-card text-center">
+                  <img src="./image/WhatsApp Image 2025-01-13 at 15.51.10_34a3dacb.jpg" alt="Mr. Yakshup Goel"
+                    class="img-fluid" />
+                  <h5 class="testimonial-name mt-3">Mr. Yakshup Goel</h5>
+                  <p class="testimonial-title">
+                    Apisero, Pune [Package - 40LPA]
+                  </p>
+                  <p class="testimonial-text">
+                    "The two years I spent at the Geeta University Campus, inspired
+                    me to persevere & never give up on anything irrespective of how
+                    difficult it might seem. The practical lessons learnt here were
+                    instrumental in building my career."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Item 3 -->
+          <div class="carousel-item">
+            <div class="row g-3">
+              <div class="col-12 col-md-6 mx-auto">
+                <div class="testimonial-card text-center">
+                  <img src="./image/WhatsApp Image 2025-01-13 at 15.51.11_546adbab.jpg" alt="Ms. Pooja Sharma"
+                    class="img-fluid" />
+                  <h5 class="testimonial-name mt-3">Ms. Pooja Sharma</h5>
+                  <p class="testimonial-title">Software Engineer</p>
+                  <p class="testimonial-text">
+                    "The hands-on learning experience at Geeta University was
+                    invaluable. It shaped my confidence and prepared me to tackle
+                    real-world challenges in my career."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Item 4 -->
+          <div class="carousel-item">
+            <div class="row g-3">
+              <div class="col-12 col-md-6 mx-auto">
+                <div class="testimonial-card text-center">
+                  <img src="./image/WhatsApp Image 2025-01-13 at 15.51.11_78cc3ff2.jpg" alt="Mr. Raj Malhotra"
+                    class="img-fluid" />
+                  <h5 class="testimonial-name mt-3">Mr. Raj Malhotra</h5>
+                  <p class="testimonial-title">Data Scientist</p>
+                  <p class="testimonial-text">
+                    "I owe my success to the incredible mentors and peers at Geeta
+                    University. Their constant support and encouragement made all
+                    the difference."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      
-    </section>
+    </div>
 
-    <!-- Industry Intergration & MOU -->
+  </section>
 
-    <section class="carousel-container py-5 bg-light">
-      <div class="container text-center">
-        <h2 class="mb-4 fw-bold text-black">Industry Intergration & MOU</h2>
-        <div class="overflow-hidden position-relative">
-          <div
-            class="d-flex justify-content-start align-items-center carousel animate-scroll"
-          >
-            <!-- Recruiter Logos -->
-            <img src="./image/mou/1-2 - Copy.jpg" class="img-fluid mx-3" />
-            <img src="./image/mou/10-1.jpg" class="img-fluid mx-3" />
-            <img
-              src="./image/mou/11-1 - Copy.jpg"
-              alt="Josh Technology Group"
-              class="img-fluid mx-3"
-            />
-            <img src="./image/mou/2-1 - Copy.jpg" class="img-fluid mx-3" />
-            <img src="./image/mou/3-2 - Copy.jpg" class="img-fluid mx-3" />
-            <img src="./image/mou/4-1 - Copy.jpg" class="img-fluid mx-3" />
-            <!-- Duplicate logos for seamless scrolling -->
-            <img src="./image/mou/5-1 - Copy.jpg" class="img-fluid mx-3" />
-            <img src="./image/mou/6-1 - Copy.jpg" class="img-fluid mx-3" />
-            <img src="./image/mou/8-1.jpg" class="img-fluid mx-3" />
-            <img src="./image/mou/9-1.jpg" class="img-fluid mx-3" />
-            <!-- <img
+  <!-- Industry Intergration & MOU -->
+
+  <section class="carousel-container py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4 fw-bold " style="color: #000080;">Industry Intergration & MOU</h2>
+      <div class="overflow-hidden position-relative">
+        <div class="d-flex justify-content-start align-items-center carousel animate-scroll">
+          <!-- Recruiter Logos -->
+          <img src="./image/mou/1-2 - Copy.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/mou/10-1.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/mou/11-1 - Copy.jpg" alt="Josh Technology Group" class="img-fluid mx-1 w-25" />
+          <img src="./image/mou/2-1 - Copy.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/mou/3-2 - Copy.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/mou/4-1 - Copy.jpg" class="img-fluid mx-1 w-25" />
+          <!-- Duplicate logos for seamless scrolling -->
+          <img src="./image/mou/5-1 - Copy.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/mou/6-1 - Copy.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/mou/8-1.jpg" class="img-fluid mx-1 w-25" />
+          <img src="./image/mou/9-1.jpg" class="img-fluid mx-1 w-25" />
+          <!-- <img
               src="./image/Top Recruiters/rec22.jpg"
               class="img-fluid mx-3"
             />
@@ -1599,86 +1181,93 @@
               src="./image/Top Recruiters/rec23.jpg"
               class="img-fluid mx-3"
             /> -->
-          </div>
         </div>
       </div>
-    </section>
-
-    <!-- star GU -->
-
-   
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-      <!-- Indicators -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      </div>
-    
-      <!-- Carousel Items -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="d-flex">
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_1458aedf.jpg" class="card-img-top" alt="Gill & Babbar Raj">
-            </div>
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_82712995.jpg" class="card-img-top" alt="Jasmine Sandlas">
-            </div>
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_f4d6c5ec.jpg" class="card-img-top" alt="MD Desi Rockstar">
-            </div>
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.17_0a993891.jpg" class="card-img-top" alt="Jasraj Joshi">
-            </div>
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.17_288b105c.jpg" class="card-img-top" alt="Raftaar">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex">
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.17_bc59c51d.jpg" class="card-img-top" alt="Raftaar">
-            </div>
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.17_e992723f.jpg" class="card-img-top" alt="Raftaar">
-            </div>
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_1458aedf.jpg" class="card-img-top" alt="Gill & Babbar Raj">
-            </div>
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_82712995.jpg" class="card-img-top" alt="Jasmine Sandlas">
-            </div>
-            <div class="card">
-              <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_f4d6c5ec.jpg" class="card-img-top" alt="MD Desi Rockstar">
-            </div>
-          </div>
-        </div>
-      </div>
-    
-      <!-- Controls -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-    
+  </section>
+
+  <!-- star GU -->
+
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+    <!-- Carousel Items -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex">
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_1458aedf.jpg" class="card-img-top"
+              alt="Gill & Babbar Raj">
+          </div>
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_82712995.jpg" class="card-img-top"
+              alt="Jasmine Sandlas">
+          </div>
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_f4d6c5ec.jpg" class="card-img-top"
+              alt="MD Desi Rockstar">
+          </div>
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.17_0a993891.jpg" class="card-img-top"
+              alt="Jasraj Joshi">
+          </div>
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.17_288b105c.jpg" class="card-img-top" alt="Raftaar">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex">
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.17_bc59c51d.jpg" class="card-img-top" alt="Raftaar">
+          </div>
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.17_e992723f.jpg" class="card-img-top" alt="Raftaar">
+          </div>
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_1458aedf.jpg" class="card-img-top"
+              alt="Gill & Babbar Raj">
+          </div>
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_82712995.jpg" class="card-img-top"
+              alt="Jasmine Sandlas">
+          </div>
+          <div class="card">
+            <img src="./image/WhatsApp Image 2025-01-13 at 16.05.16_f4d6c5ec.jpg" class="card-img-top"
+              alt="MD Desi Rockstar">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
     <!-- footer code  -->
 
-    <footer>
-      <div class="container-fluid py-5 pb-5 bg-light">
+    <footer >
+      <div class="container-fluid py-5 pb-5">
         <div class="container">
           <h1>
             Admissions Open for Session <br />
             2025-2026
           </h1>
           <p>For Your bright Future</p>
-          <a href="">
+          <a href="https://admissions.geetauniversity.edu.in/" target="_blank">
             <button class="apply-btn shadow-none border-0">
               Admission Open&nbsp;<i class="fa-solid fa-arrow-right"></i>
             </button>
@@ -1704,16 +1293,19 @@
 
               <!-- Social Icons Section -->
               <div class="mt-4">
-                <a href="#" class="text-primary me-3"
+                <a href="https://www.facebook.com/share/nFk99pBPikyCC5PR/?mibextid=qi2Omg" style="color: #ff5f19;" class="me-2"
                   ><i class="fab fa-facebook"></i
                 ></a>
-                <a href="#" class="text-primary me-3"
-                  ><i class="fab fa-twitter"></i
+                <a href="https://wa.link/rt4qp1" style="color: #ff5f19;" class="me-2"
+                  ><i class="fab fa-whatsapp"></i
                 ></a>
-                <a href="#" class="text-primary me-3"
+                <a href="https://www.youtube.com/c/geetauniversity" style="color: #ff5f19;" class="me-2"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a href="https://www.linkedin.com/school/geeta-university-official/" style="color: #ff5f19;" class="me-2"
                   ><i class="fab fa-linkedin"></i
                 ></a>
-                <a href="#" class="text-primary"
+                <a href="https://www.instagram.com/geetauniversitypanipat/" style="color: #ff5f19;" class="me-2"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -1724,73 +1316,60 @@
               <h5 class="fw-bold" style="color: #06355f">Apply Here</h5>
               <ul class="mt-3 list-unstyled">
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/admissions-2024-25"
-                    class="text-black text-decoration-none"
-                    >Admissions 2024-25</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://geetauniversity.edu.in/scholarship-offered"
-                    class="text-black text-decoration-none"
-                    >Scholarship Offered</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://geetauniversity.edu.in/scholarship-predictor"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/scholarship-predictor/"
+                    
                     >Scholarship Predictor</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/government-scholarship"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/scholarships/"
+                    
+                    >Scholarship Details</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank"
+                    href="https://scholarships.gov.in/"
+                    
                     >Government Scholarship</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/academic-bank-of-credits"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://www.abc.gov.in/"
+                    
                     >Academic Bank of Credits</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/digi-locker-nad-portal"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://nad.gov.in/"
+                    
                     >Digi-Locker NAD Portal</a
                   >
                 </li>
+                
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/download-application-form"
-                    class="text-black text-decoration-none"
-                    >Download Application Form</a
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/wp-content/uploads/2025/01/GU-Brochure-25-26.pdf"
+                    
+                    >Download GU Brochure 2025-26</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/download-brochure-2024-25"
-                    class="text-black text-decoration-none"
-                    >Download Brochure 2024-25</a
+                  <a target="_blank"
+                    href="https://drive.google.com/file/d/1NAmcQhrHEFnLRBrXprlB9YDrR337kQ7S/view?usp=sharing"
+                    
+                    >Download GU Tri Fold Brochure 2025-26</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/download-cse-brochure"
-                    class="text-black text-decoration-none"
-                    >Download CSE Brochure</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://geetauniversity.edu.in/download-prospectus"
-                    class="text-black text-decoration-none"
-                    >Download Prospectus</a
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/wp-content/uploads/2025/01/career-bulletin-booklet.pdf"
+                    
+                    >Download Bulletin 2025-26</a
                   >
                 </li>
               </ul>
@@ -1801,79 +1380,67 @@
               <h5 class="fw-bold" style="color: #06355f">Quick Links</h5>
               <ul class="mt-3 list-unstyled">
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/teaching-learning-practice"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/teaching-learning-practices/"
+                    
                     >Teaching-Learning Practice</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/xedge"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/xedge/"
+                    
                     >XEdge</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/blog"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://blog.geetauniversity.edu.in/"
+                    
                     >Blog</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/approvals"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://www.ugc.ac.in/privateuniversitylist.aspx?id=P3RYFjtU2CKJPVXcIdU9fw==&Unitype=So1CNBLvrigKjpQTxHMrAQ=="
+                    
                     >Approvals</a
                   >
                 </li>
+                
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/events"
-                    class="text-black text-decoration-none"
-                    >Events</a
-                  >
-                </li>
-                <li>
-                  <a
+                  <a target="_blank"
                     href="https://geetauniversity.edu.in/geeta-in-news"
-                    class="text-black text-decoration-none"
+                    
                     >Geeta in News</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/ugc-documents"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/ugc/"
+                    
                     >UGC Documents</a
                   >
                 </li>
+                
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/news-letter"
-                    class="text-black text-decoration-none"
-                    >News Letter</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://geetauniversity.edu.in/self-disclosure"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/wp-content/uploads/2024/06/UGC-Self-disclosure-Geeta-University.pdf"
+                    
                     >Self Disclosure</a
                   >
                 </li>
-                <li>
+                <!-- <li>
                   <a
                     href="https://geetauniversity.edu.in/it-policy"
-                    class="text-black text-decoration-none"
+                    
                     >IT Policy</a
                   >
-                </li>
+                </li> -->
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/anti-ragging-committee"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/anti-ragging-comitee/"
+                    
                     >Anti Ragging Committee</a
                   >
                 </li>
@@ -1884,66 +1451,60 @@
             <div class="col-12 col-sm-2">
               <h5 class="fw-bold" style="color: #06355f">Visit Here</h5>
               <ul class="mt-3 list-unstyled">
-                <li>
-                  <a
+                <!-- <li>
+                  <a target="_blank"
                     href="https://geetauniversity.edu.in/general-enquiry"
-                    class="text-black text-decoration-none"
+                    
                     >General Enquiry</a
                   >
-                </li>
+                </li> -->
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/how-to-reach-us"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/how-to-reach-us/"
+                    
                     >How to Reach Us?</a
                   >
                 </li>
                 <li>
                   <a
-                    href="https://geetauniversity.edu.in/about-panipat"
-                    class="text-black text-decoration-none"
+                    href="https://geetauniversity.edu.in/about-panipat/"
+                    
                     >About Panipat</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/contact-us"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/contact-us/"
+                    
                     >Contact Us</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/maps"
-                    class="text-black text-decoration-none"
-                    >Maps</a
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/our-offices/"
+                    
+                    >Admission Offices</a
                   >
                 </li>
+                
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/our-offices"
-                    class="text-black text-decoration-none"
-                    >Our Offices</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://geetauniversity.edu.in/ugc-samadhaan-portal"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://samadhaan.ugc.ac.in/"
+                    
                     >UGC Samadhaan Portal</a
                   >
                 </li>
                 <li>
-                  <a
+                  <a target="_blank"
                     href="https://geetauniversity.edu.in/student-handbook-2024-25"
-                    class="text-black text-decoration-none"
+                    
                     >Student Handbook 2024-25</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/hostel-fee-and-transport-charges"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/wp-content/uploads/2024/12/Proposed-Fee-structure-for-2025-26.pdf"
+                    class="text-decoration-none"
                     >Hostel Fee And Transport Charges</a
                   >
                 </li>
@@ -1955,84 +1516,73 @@
               <h5 class="fw-bold" style="color: #06355f">Others</h5>
               <ul class="mt-3 list-unstyled">
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/general-information"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/wp-content/uploads/2022/06/GENERAL-INFORMATION-GU-3.pdf"
+                    
                     >General Information</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/careers"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/careers/"
+                    
                     >Careers</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/alumni"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/alumni-registration/"
+                    
                     >Alumni</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/social-media"
-                    class="text-black text-decoration-none"
-                    >Social Media</a
-                  >
-                </li>
-                <li>
-                  <a
+                  <a target="_blank"
                     href="https://geetauniversity.edu.in/sitemap"
-                    class="text-black text-decoration-none"
+                    
                     >Sitemap</a
                   >
                 </li>
+                
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/refund-policy"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="#"
+                    
                     >Refund Policy</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/psychometric-test"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://psychometrictest.in/career/landing"
+                    
                     >Psychometric Test</a
                   >
                 </li>
                 <li>
-                  <a
-                    href="https://geetauniversity.edu.in/internal-complaints-committee-icc"
-                    class="text-black text-decoration-none"
+                  <a target="_blank"
+                    href="https://geetauniversity.edu.in/wp-content/uploads/2024/07/ICC-Draft-for-Website.pdf"
+                    
                     >Internal Complaints Committee (ICC)</a
                   >
                 </li>
-                <li>
-                  <a
+                <!-- <li>
+                  <a target="_blank"
                     href="https://geetauniversity.edu.in/placement-brochures"
                     class="text-black text-decoration-none"
                     >Placement Brochures</a
                   >
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
 
           <!-- Footer Bottom -->
-          <div
-            class="d-flex justify-content-between align-items-center mt-5 pt-4 border-top text-muted"
-          >
-            <p>&copy; 2025 Geeta University. All rights reserved.</p>
+          <div class="d-flex justify-content-between align-items-center mt-5 pt-4 border-top text-muted flex-column flex-sm-row text-center text-sm-start">
+            <p class="mb-2 mb-sm-0" style="font-size: 0.875rem; color: #ff5f19;">&copy; 2025 Geeta University. All rights reserved.</p>
             <div>
-              <a href="#" class="text-primary me-3 text-decoration-none"
-                >Privacy Policy</a
-              >
-              <a href="#" class="text-primary text-decoration-none"
-                >Terms & Conditions</a
-              >
+              <a href="https://geetauniversity.edu.in/privacy-policy/"  target="_blank" class="text-dark me-3 text-decoration-none" style="font-size: 0.875rem;">Privacy Policy</a><span>/ &nbsp;</span>
+              <a href="https://geetauniversity.edu.in/terms-and-conditions/" target="_blank" class="text-dark text-decoration-none" style="font-size: 0.875rem;">Terms & Conditions</a><span> &nbsp; / &nbsp;</span>
+              <a href="https://geetauniversity.edu.in/disclaimer/" target="_blank" class="text-dark text-decoration-none" style="font-size: 0.875rem;">Disclaimer</a>
             </div>
           </div>
         </div>
@@ -2040,6 +1590,8 @@
     </footer>
 
     <!-- js files -->
+     <script src="./script.js"></script>
+     
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
